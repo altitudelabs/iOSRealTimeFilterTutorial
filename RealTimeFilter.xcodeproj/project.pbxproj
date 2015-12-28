@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D67CFB571C30E6FA005AE284 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D67CFB561C30E6FA005AE284 /* main.m */; };
+		D67CFB5A1C30E6FA005AE284 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D67CFB591C30E6FA005AE284 /* AppDelegate.m */; };
+		D67CFB5D1C30E6FA005AE284 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D67CFB5C1C30E6FA005AE284 /* ViewController.m */; };
+		D67CFB601C30E6FA005AE284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67CFB5E1C30E6FA005AE284 /* Main.storyboard */; };
+		D67CFB631C30E6FA005AE284 /* RealTimeFilter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D67CFB611C30E6FA005AE284 /* RealTimeFilter.xcdatamodeld */; };
+		D67CFB651C30E6FA005AE284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D67CFB641C30E6FA005AE284 /* Assets.xcassets */; };
+		D67CFB681C30E6FA005AE284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67CFB661C30E6FA005AE284 /* LaunchScreen.storyboard */; };
+		D67CFB731C30E6FA005AE284 /* RealTimeFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D67CFB721C30E6FA005AE284 /* RealTimeFilterTests.m */; };
+		D67CFB7E1C30E6FA005AE284 /* RealTimeFilterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D67CFB7D1C30E6FA005AE284 /* RealTimeFilterUITests.m */; };
+		D67CFB8C1C30E84C005AE284 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67CFB8B1C30E84C005AE284 /* CoreImage.framework */; };
+		D67CFB8E1C30E853005AE284 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67CFB8D1C30E853005AE284 /* AVFoundation.framework */; };
+		D67CFB901C30EB6D005AE284 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D67CFB8F1C30EB6D005AE284 /* OpenGLES.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D67CFB6F1C30E6FA005AE284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D67CFB4A1C30E6FA005AE284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D67CFB511C30E6FA005AE284;
+			remoteInfo = RealTimeFilter;
+		};
+		D67CFB7A1C30E6FA005AE284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D67CFB4A1C30E6FA005AE284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D67CFB511C30E6FA005AE284;
+			remoteInfo = RealTimeFilter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D67CFB521C30E6FA005AE284 /* RealTimeFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67CFB561C30E6FA005AE284 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D67CFB581C30E6FA005AE284 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D67CFB591C30E6FA005AE284 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D67CFB5B1C30E6FA005AE284 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D67CFB5C1C30E6FA005AE284 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D67CFB5F1C30E6FA005AE284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D67CFB621C30E6FA005AE284 /* RealTimeFilter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RealTimeFilter.xcdatamodel; sourceTree = "<group>"; };
+		D67CFB641C30E6FA005AE284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D67CFB671C30E6FA005AE284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D67CFB691C30E6FA005AE284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D67CFB6E1C30E6FA005AE284 /* RealTimeFilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimeFilterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67CFB721C30E6FA005AE284 /* RealTimeFilterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealTimeFilterTests.m; sourceTree = "<group>"; };
+		D67CFB741C30E6FA005AE284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D67CFB791C30E6FA005AE284 /* RealTimeFilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimeFilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67CFB7D1C30E6FA005AE284 /* RealTimeFilterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealTimeFilterUITests.m; sourceTree = "<group>"; };
+		D67CFB7F1C30E6FA005AE284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D67CFB8B1C30E84C005AE284 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D67CFB8D1C30E853005AE284 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D67CFB8F1C30EB6D005AE284 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D67CFB4F1C30E6FA005AE284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67CFB901C30EB6D005AE284 /* OpenGLES.framework in Frameworks */,
+				D67CFB8E1C30E853005AE284 /* AVFoundation.framework in Frameworks */,
+				D67CFB8C1C30E84C005AE284 /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67CFB6B1C30E6FA005AE284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67CFB761C30E6FA005AE284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D67CFB491C30E6FA005AE284 = {
+			isa = PBXGroup;
+			children = (
+				D67CFB8F1C30EB6D005AE284 /* OpenGLES.framework */,
+				D67CFB8D1C30E853005AE284 /* AVFoundation.framework */,
+				D67CFB8B1C30E84C005AE284 /* CoreImage.framework */,
+				D67CFB541C30E6FA005AE284 /* RealTimeFilter */,
+				D67CFB711C30E6FA005AE284 /* RealTimeFilterTests */,
+				D67CFB7C1C30E6FA005AE284 /* RealTimeFilterUITests */,
+				D67CFB531C30E6FA005AE284 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D67CFB531C30E6FA005AE284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D67CFB521C30E6FA005AE284 /* RealTimeFilter.app */,
+				D67CFB6E1C30E6FA005AE284 /* RealTimeFilterTests.xctest */,
+				D67CFB791C30E6FA005AE284 /* RealTimeFilterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D67CFB541C30E6FA005AE284 /* RealTimeFilter */ = {
+			isa = PBXGroup;
+			children = (
+				D67CFB581C30E6FA005AE284 /* AppDelegate.h */,
+				D67CFB591C30E6FA005AE284 /* AppDelegate.m */,
+				D67CFB5B1C30E6FA005AE284 /* ViewController.h */,
+				D67CFB5C1C30E6FA005AE284 /* ViewController.m */,
+				D67CFB5E1C30E6FA005AE284 /* Main.storyboard */,
+				D67CFB641C30E6FA005AE284 /* Assets.xcassets */,
+				D67CFB661C30E6FA005AE284 /* LaunchScreen.storyboard */,
+				D67CFB691C30E6FA005AE284 /* Info.plist */,
+				D67CFB611C30E6FA005AE284 /* RealTimeFilter.xcdatamodeld */,
+				D67CFB551C30E6FA005AE284 /* Supporting Files */,
+			);
+			path = RealTimeFilter;
+			sourceTree = "<group>";
+		};
+		D67CFB551C30E6FA005AE284 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D67CFB561C30E6FA005AE284 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D67CFB711C30E6FA005AE284 /* RealTimeFilterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D67CFB721C30E6FA005AE284 /* RealTimeFilterTests.m */,
+				D67CFB741C30E6FA005AE284 /* Info.plist */,
+			);
+			path = RealTimeFilterTests;
+			sourceTree = "<group>";
+		};
+		D67CFB7C1C30E6FA005AE284 /* RealTimeFilterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D67CFB7D1C30E6FA005AE284 /* RealTimeFilterUITests.m */,
+				D67CFB7F1C30E6FA005AE284 /* Info.plist */,
+			);
+			path = RealTimeFilterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D67CFB511C30E6FA005AE284 /* RealTimeFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67CFB821C30E6FA005AE284 /* Build configuration list for PBXNativeTarget "RealTimeFilter" */;
+			buildPhases = (
+				D67CFB4E1C30E6FA005AE284 /* Sources */,
+				D67CFB4F1C30E6FA005AE284 /* Frameworks */,
+				D67CFB501C30E6FA005AE284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealTimeFilter;
+			productName = RealTimeFilter;
+			productReference = D67CFB521C30E6FA005AE284 /* RealTimeFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D67CFB6D1C30E6FA005AE284 /* RealTimeFilterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67CFB851C30E6FA005AE284 /* Build configuration list for PBXNativeTarget "RealTimeFilterTests" */;
+			buildPhases = (
+				D67CFB6A1C30E6FA005AE284 /* Sources */,
+				D67CFB6B1C30E6FA005AE284 /* Frameworks */,
+				D67CFB6C1C30E6FA005AE284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D67CFB701C30E6FA005AE284 /* PBXTargetDependency */,
+			);
+			name = RealTimeFilterTests;
+			productName = RealTimeFilterTests;
+			productReference = D67CFB6E1C30E6FA005AE284 /* RealTimeFilterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D67CFB781C30E6FA005AE284 /* RealTimeFilterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67CFB881C30E6FA005AE284 /* Build configuration list for PBXNativeTarget "RealTimeFilterUITests" */;
+			buildPhases = (
+				D67CFB751C30E6FA005AE284 /* Sources */,
+				D67CFB761C30E6FA005AE284 /* Frameworks */,
+				D67CFB771C30E6FA005AE284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D67CFB7B1C30E6FA005AE284 /* PBXTargetDependency */,
+			);
+			name = RealTimeFilterUITests;
+			productName = RealTimeFilterUITests;
+			productReference = D67CFB791C30E6FA005AE284 /* RealTimeFilterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D67CFB4A1C30E6FA005AE284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Victor;
+				TargetAttributes = {
+					D67CFB511C30E6FA005AE284 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9UQ4BP42V9;
+					};
+					D67CFB6D1C30E6FA005AE284 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9UQ4BP42V9;
+						TestTargetID = D67CFB511C30E6FA005AE284;
+					};
+					D67CFB781C30E6FA005AE284 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9UQ4BP42V9;
+						TestTargetID = D67CFB511C30E6FA005AE284;
+					};
+				};
+			};
+			buildConfigurationList = D67CFB4D1C30E6FA005AE284 /* Build configuration list for PBXProject "RealTimeFilter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D67CFB491C30E6FA005AE284;
+			productRefGroup = D67CFB531C30E6FA005AE284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D67CFB511C30E6FA005AE284 /* RealTimeFilter */,
+				D67CFB6D1C30E6FA005AE284 /* RealTimeFilterTests */,
+				D67CFB781C30E6FA005AE284 /* RealTimeFilterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D67CFB501C30E6FA005AE284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67CFB681C30E6FA005AE284 /* LaunchScreen.storyboard in Resources */,
+				D67CFB651C30E6FA005AE284 /* Assets.xcassets in Resources */,
+				D67CFB601C30E6FA005AE284 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67CFB6C1C30E6FA005AE284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67CFB771C30E6FA005AE284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D67CFB4E1C30E6FA005AE284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67CFB631C30E6FA005AE284 /* RealTimeFilter.xcdatamodeld in Sources */,
+				D67CFB5D1C30E6FA005AE284 /* ViewController.m in Sources */,
+				D67CFB5A1C30E6FA005AE284 /* AppDelegate.m in Sources */,
+				D67CFB571C30E6FA005AE284 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67CFB6A1C30E6FA005AE284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67CFB731C30E6FA005AE284 /* RealTimeFilterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67CFB751C30E6FA005AE284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67CFB7E1C30E6FA005AE284 /* RealTimeFilterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D67CFB701C30E6FA005AE284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D67CFB511C30E6FA005AE284 /* RealTimeFilter */;
+			targetProxy = D67CFB6F1C30E6FA005AE284 /* PBXContainerItemProxy */;
+		};
+		D67CFB7B1C30E6FA005AE284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D67CFB511C30E6FA005AE284 /* RealTimeFilter */;
+			targetProxy = D67CFB7A1C30E6FA005AE284 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D67CFB5E1C30E6FA005AE284 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D67CFB5F1C30E6FA005AE284 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D67CFB661C30E6FA005AE284 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D67CFB671C30E6FA005AE284 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D67CFB801C30E6FA005AE284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D67CFB811C30E6FA005AE284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D67CFB831C30E6FA005AE284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RealTimeFilter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Victor.RealTimeFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D67CFB841C30E6FA005AE284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RealTimeFilter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Victor.RealTimeFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D67CFB861C30E6FA005AE284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RealTimeFilterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Victor.RealTimeFilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealTimeFilter.app/RealTimeFilter";
+			};
+			name = Debug;
+		};
+		D67CFB871C30E6FA005AE284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RealTimeFilterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Victor.RealTimeFilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealTimeFilter.app/RealTimeFilter";
+			};
+			name = Release;
+		};
+		D67CFB891C30E6FA005AE284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RealTimeFilterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Victor.RealTimeFilterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RealTimeFilter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D67CFB8A1C30E6FA005AE284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RealTimeFilterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Victor.RealTimeFilterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RealTimeFilter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D67CFB4D1C30E6FA005AE284 /* Build configuration list for PBXProject "RealTimeFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67CFB801C30E6FA005AE284 /* Debug */,
+				D67CFB811C30E6FA005AE284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67CFB821C30E6FA005AE284 /* Build configuration list for PBXNativeTarget "RealTimeFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67CFB831C30E6FA005AE284 /* Debug */,
+				D67CFB841C30E6FA005AE284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D67CFB851C30E6FA005AE284 /* Build configuration list for PBXNativeTarget "RealTimeFilterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67CFB861C30E6FA005AE284 /* Debug */,
+				D67CFB871C30E6FA005AE284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D67CFB881C30E6FA005AE284 /* Build configuration list for PBXNativeTarget "RealTimeFilterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67CFB891C30E6FA005AE284 /* Debug */,
+				D67CFB8A1C30E6FA005AE284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D67CFB611C30E6FA005AE284 /* RealTimeFilter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D67CFB621C30E6FA005AE284 /* RealTimeFilter.xcdatamodel */,
+			);
+			currentVersion = D67CFB621C30E6FA005AE284 /* RealTimeFilter.xcdatamodel */;
+			path = RealTimeFilter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D67CFB4A1C30E6FA005AE284 /* Project object */;
+}
